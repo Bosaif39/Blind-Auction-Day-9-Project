@@ -1,13 +1,13 @@
 import os
+
 bidders = {}
 Doer = True
 
-#Function to clear screen
+#Function to clear the screen based on the operating system
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
-
-#Function to find the highest bidder
+#Function to determine and display the highest bidder
 def highest_bidder(bid_record):
     highest_bid = 0
     winner = ""
@@ -18,7 +18,7 @@ def highest_bidder(bid_record):
             winner = bidder
     print(f"The winner is {winner} and the bid is ${highest_bid}")
 
-#Loop to take as much bidders as needed
+#Main loop to collect bids
 while Doer:
     name = input("Enter your name: ")
     price = int(input("Enter your bid: $"))
@@ -30,4 +30,5 @@ while Doer:
     elif test == "yes":
         print("=" * 10)
 
+#Determine and display the highest bidder
 highest_bidder(bidders)
