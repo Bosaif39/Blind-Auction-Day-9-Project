@@ -1,10 +1,10 @@
-### **Blind Auction**
+# **Blind Auction**
 
-**Overview:**
+## **Overview:**
 
 This is the Day 9 project from the 100 Days of Code: The Complete Python Pro Bootcamp. The Blind Auction script allows users to place bids on an item anonymously. It collects bids from multiple participants, clears the screen after each bid to keep bids private, and finally displays the highest bid along with the bidder’s name.
 
-**How It Works:**
+## **How It Works:**
 
 1. **Bid Collection:** 
    - Users enter their name and bid amount.
@@ -16,10 +16,10 @@ This is the Day 9 project from the 100 Days of Code: The Complete Python Pro Boo
    - It then announces the winner and the amount of the highest bid.
 
 
-**Example**
+## **Example:**
 
 ![alt text](https://github.com/Bosaif39/example-pics/blob/main/D_9.png?raw=true)
 
-**Requirements:**
+## **Requirements:**
 
 Python 3.x
